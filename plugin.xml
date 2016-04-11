@@ -11,7 +11,7 @@
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="Analytics">
-                <param name="ios-package" value="AnalyticsPlugin"/>
+                <param name="ios-package" value="HWPAnalyticsPlugin"/>
             </feature>
         </config-file>
         <header-file src="src/ios/Analytics-Bridging-Header.h" />
