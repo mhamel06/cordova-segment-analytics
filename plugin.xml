@@ -11,7 +11,7 @@
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="Analytics">
-                <param name="ios-package" value="CDVDevice"/>
+                <param name="ios-package" value="AnalyticsPlugin"/>
             </feature>
         </config-file>
         <header-file src="src/ios/Analytics-Bridging-Header.h" />
