@@ -10,7 +10,7 @@
     </js-module>
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-            <feature name="Analytics">
+            <feature name="AnalyticsPlugin">
                 <param name="ios-package" value="HWPAnalyticsPlugin"/>
             </feature>
         </config-file>
