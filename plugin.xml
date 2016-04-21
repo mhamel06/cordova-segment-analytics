@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="cordova-segment-analytics" version="0.1.2">
+        id="cordova-segment-analytics" version="0.1.3">
     <name>Analytics</name>
     <description>Plugin for cordova apps using segment.io</description>
     <license>Apache 2.0</license>
@@ -17,13 +17,13 @@
         <header-file src="src/ios/Analytics-Bridging-Header.h" />
         <source-file src="src/ios/AnalyticsPlugin.swift" />
     </platform>
-    <platform name="android">
-        <config-file target="config.xml" parent="/*">
-            <feature name="AnalyticsPlugin">
-                <param name="ios-package" value="HWPAnalyticsPlugin"/>
-            </feature>
-        </config-file>
-        <header-file src="src/ios/Analytics-Bridging-Header.h" />
-        <source-file src="src/ios/AnalyticsPlugin.swift" />
-    </platform>
+    <!--<platform name="android">-->
+        <!--<config-file target="config.xml" parent="/*">-->
+            <!--<feature name="AnalyticsPlugin">-->
+                <!--<param name="ios-package" value="HWPAnalyticsPlugin"/>-->
+            <!--</feature>-->
+        <!--</config-file>-->
+        <!--<header-file src="src/ios/Analytics-Bridging-Header.h" />-->
+        <!--<source-file src="src/ios/AnalyticsPlugin.swift" />-->
+    <!--</platform>-->
 </plugin>
