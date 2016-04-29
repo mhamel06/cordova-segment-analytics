@@ -19,7 +19,7 @@
     </platform>
     <platform name="android">
         <config-file target="config.xml" parent="/*">
-            <feature name="SegmentAnalytics">
+            <feature name="AnalyticsPlugin">
                 <param name="android-package" value="org.apache.cordova.plugin.SegmentAnalytics"/>
             </feature>
         </config-file>
