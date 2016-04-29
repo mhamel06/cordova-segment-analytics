@@ -17,13 +17,13 @@
         <header-file src="src/ios/Analytics-Bridging-Header.h" />
         <source-file src="src/ios/AnalyticsPlugin.swift" />
     </platform>
-    <!--<platform name="android">-->
-        <!--<config-file target="config.xml" parent="/*">-->
-            <!--<feature name="AnalyticsPlugin">-->
-                <!--<param name="ios-package" value="HWPAnalyticsPlugin"/>-->
-            <!--</feature>-->
-        <!--</config-file>-->
-        <!--<header-file src="src/ios/Analytics-Bridging-Header.h" />-->
-        <!--<source-file src="src/ios/AnalyticsPlugin.swift" />-->
-    <!--</platform>-->
+    <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <feature name="SegmentAnalytics">
+                <param name="android-package" value="org.apache.cordova.plugin.SegmentAnalytics"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/SegmentAnalytics.java" target-dir="src/org/apache/cordova/plugin" />
+
+    </platform>
 </plugin>
